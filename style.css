@@ -1,0 +1,157 @@
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    background: #f0c4b2;
+} 
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+.btn {
+    width: 146px;
+    height: 48px;
+    background: #F2F2F2;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    border: none;
+}
+
+.btn_sedan a {color: #E28625;text-decoration: none;}
+
+.btn_sedan:hover a {
+    color:#FFFFFF;
+}
+
+.btn_sedan:hover {
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    background: #E28625;
+    cursor:pointer;
+}
+
+.btn_suv a {color: #006971;text-decoration: none;}
+
+.btn_suv:hover a {
+    color:#FFFFFF;
+}
+
+.btn_suv:hover {
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    background: #006971;
+    cursor:pointer;
+}
+
+.btn_luxury a {color: #004140;text-decoration: none;}
+
+.btn_luxury:hover a {
+    color:#FFFFFF;
+}
+
+.btn_luxury:hover {
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    background: #004140;
+    cursor:pointer;
+}
+
+.container {
+    min-width: 327px;
+    height: 1326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_sedan {
+    width: 327px;
+    height: 442px;
+    background: #E28625;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_suv {
+    width: 327px;
+    height: 442px;
+    background: #006971;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_luxury {
+    width: 327px;
+    height: 442px;
+    background: #004140;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_info {
+    width: 224px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:1440px) {
+    
+    .container {
+        min-width: 1440px;
+        height: 800px;
+        flex-direction: row;
+    }
+
+    
+    .container_sedan {
+        width: 307px;
+        height: 500px;
+    }
+    
+    .container_suv {
+        width: 307px;
+        height: 500px;
+    }
+    
+    .container_luxury {
+        width: 307px;
+        height: 500px;
+    }
+    
+    .container_info {
+        width: 192px;
+        height: 405px;
+    }
+
+}
